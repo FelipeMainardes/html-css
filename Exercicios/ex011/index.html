@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir essse site em varios dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture><!--COLOCAR ENTRE A TAG PICTURE N ESQUECEEEEE-->
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png"><!--Mudar para max-width: tamanho em pixels mais 50 da imagem-->
+        <source media="(max-width: 1050px) " srcset="imagens/m.png" type="image/png"> <!--Mudar para max-width: tamanho em pixels mais 50 da imagem-->
+        <img src="imagens/G.png" alt="Imagem Flex">
+    </picture>
+
+    <h1>Reproduzinho audio</h1>
+<p>vamos aprender a reproduzir audios</p>
+<audio src="midia/cala-a-boca-macaco.mp3" controls autoplay></audio> <!--MP3 WAV OGG-->
+
+<audio preload="metadata" autoplay controls>
+    <source src="midia/cala-a-boca-macaco.ogg" type="audio/mpeg">
+    <source src="midia/cala-a-boca-macaco.wav" type="audio/mpeg">
+    <p>Infelizmente seu navegador n reproduz audio <a href="midia/cala-a-boca-macaco.mp3"></a> CLique aqui para baixar o arquivo </p>
+</audio>
+
+
+
+</body>
+</html>

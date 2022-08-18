@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    font-family: "work sans";
+    font-size: 1em;
+    font-weight: 100 - 900;
+    font-style: italic;
+    text-decoration: underline;
+    /*lighter normal bold bolder */
+    font: italic bolder 1em "work sans", sans-serif;
+    /* font style > font weight > font size > font family */
+    
+}
+/* medidas absolutas 
+cm, mm, in, px, pt, pc
+
+medidas relativas
+em, ex, rem, vw, vh, %
+
+16px é igual a 1 em
+*/

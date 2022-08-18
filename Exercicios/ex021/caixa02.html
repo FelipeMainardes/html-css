@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+        }
+        nav{
+            padding: 3px;
+            background-color: lightgray;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            background-color: rgba(132, 125, 241, 0.61);
+
+        }
+        
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            
+        }
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            text-align: center;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+            border-radius: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site!</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assintos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Rei do Seqso</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quisquam tempore. Impedit inventore error ipsam magni praesentium corrupti cupiditate numquam, harum ipsum dignissimos ea delectus libero soluta quas temporibus in!</p>
+                <aside>
+                    <p>Escrito pelo rei do Seqso</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo rei do seqso</p>
+
+    </footer>
+</body>
+</html>
